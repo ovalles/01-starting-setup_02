@@ -28,7 +28,7 @@ function App() {
   ];
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <h2>Let's get prior started!</h2>
       <p>..al bitcoin le ira bien mejor en el 2025</p>
       <Expenses items={expenses}></Expenses>
     </div>
