@@ -1,6 +1,6 @@
-import ExpenseItemProps from "./components/ExpenseItemProps";
-import ExpenseItemBasic from "./components/ExpenseItemBasic";
-import Expenses from "./components/Expenses";
+import ExpenseItemProps from "./components/expenses/ExpenseItemProps";
+import ExpenseItemBasic from "./components/expenses/ExpenseItemBasic";
+import Expenses from "./components/expenses/Expenses";
 
 
 
