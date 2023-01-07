@@ -5,7 +5,7 @@ import ExpenseForm from './ExpenseForm'
 function NewExpense(){
 
     return(
-        <div ClassName="new-expense">
+        <div className="new-expense">
             <ExpenseForm></ExpenseForm>
 
         </div>

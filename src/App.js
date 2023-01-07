@@ -1,6 +1,7 @@
 import ExpenseItemProps from "./components/expenses/ExpenseItemProps";
 import ExpenseItemBasic from "./components/expenses/ExpenseItemBasic";
 import Expenses from "./components/expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 
 
@@ -30,6 +31,7 @@ function App() {
     <div>
       <h2>Let's get prior started!</h2>
       <p>..al bitcoin le ira bien mejor en el 2025</p>
+      <NewExpense/>
       <Expenses items={expenses}></Expenses>
     </div>
   );
