@@ -27,11 +27,15 @@ function App() {
       date: new Date(2021, 5, 12),
     },
   ];
+
+  function addNewExpenseHandler(newData){
+    console.log(newData)
+  }
   return (
     <div>
       <h2>Let's get prior started!</h2>
       <p>..al bitcoin le ira bien mejor en el 2025</p>
-      <NewExpense/>
+      <NewExpense onAddNewExpense={addNewExpenseHandler} />
       <Expenses items={expenses}></Expenses>
     </div>
   );
