@@ -13,8 +13,23 @@ function Expenses(props) {
             <div>
                 <ExpensesFilter onReceiveFilter={receiveYear}> </ExpensesFilter>
             </div> 
-            <div className="expenses">      
-                <ExpenseItemProps 
+            <div className="expenses">
+                {
+                //Here we are going to renderize each expense item
+                //by splitting each element of the array items using
+                //the builtin method map
+                //and applying the component ExpenseItemProps to each one
+                //lesson 63
+                }
+                {props.items.map((gasto) =>(
+                    <ExpenseItemProps 
+                        title={gasto.title} 
+                        date={gasto.date} 
+                        cantidad={gasto.amount}>
+                    </ExpenseItemProps>))
+                }
+                <h2>Renderizing old way</h2>
+                <ExpenseItemProps
                     title={props.items[0].title} 
                     date={props.items[0].date} 
                     cantidad={props.items[0].amount}>
